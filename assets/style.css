@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+}
+/*                                          Login                                              */
+.login-container{
+    padding: 100px;
+    position: fixed;
+    top: 100px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 4px 10px black;
+    justify-self: center;
+}
+.login-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: center;
+    margin-bottom: 50px;
+    color: rgb(121, 89, 21);
+    
+}
+.p-log{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    align-self: center;
+}
+
+.signup-link{
+    color: rgb(121, 89, 21);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*                                          Inputs                                              */
+
+input{
+    padding: 15px;
+    display: block;
+    margin: 10px;
+    border-radius: 20px;
+    justify-self: center;
+    
+
+}
+.login-button{
+    background-color: rgb(102, 66, 0);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.login-button:hover{
+    background-color: #d6d4d4;
+    color: #000000;
+
+}
+
+/*                                          signup                                              */
+.signup-container{
+    padding: 100px;
+    height: 274px;
+    position: relative;
+    top: 100px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: 2px 4px 10px black;
+    justify-self: center;
+    position: fixed;
+}
+.signup-header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-self: center;
+    margin-bottom: 50px;
+    color: rgb(121, 89, 21);
+    position: relative;
+}
+
+/* ...existing code... */
+.form-slide {
+    display: none;
+    position: relative;
+}
+.form-slide.active {
+    display: block;
+}
+/* ...existing code... */
+.login-link {
+    color: rgb(121, 89, 21);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.p{
+    text-align: center;
+    position: fixed;
+    bottom: 270px;
+    align-self: center;
+
+}
+
+.signup-button {
+    background-color: rgb(102, 66, 0);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+}
+.signup-button:hover {
+    background-color: #d6d4d4;
+    color: #000000;
+}
+.prev-button {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 0px;
+    position: fixed;
+    top: 110px;
+    left: 610px;
+    border: none;
+    background-color: transparent;
+    font-size: x-large;
+}
+.next-button {
+    color: black;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: none;
+    font-size: medium;
+    position: relative;
+    left: 150px;
+    
+}
+
+
+
+/*                                          index                                              */
+
+
+.sidebar-toggle {
+    box-shadow: 2px 2px 2px 5px rgba(44, 44, 44, 0.1);
+    border: 1px solid black;
+    background-color: #14b8a6; /* Teal background */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    border-radius: 5px;
+    z-index: 10; /* Ensure it's above the sidebar */
+    margin-left: 0;
+}
+
+
+
+nav {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0; /* Ensure it's flush with the top */
+    left: 0;
+    width: 250px;
+    background-color: #111827;
+    color: black;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav.collapsed {
+    width: 0;
+    overflow: hidden; /* Hide content when collapsed */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0; /* Adjust top and bottom margin for spacing */
+    flex-grow: 1; /* Allow list to take up available space */
+    width: 100%; /* Make the list full width of the nav */
+    display: flex; /* Enable flex layout for list items */
+    flex-direction: column; /* Stack list items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+nav ul li {
+    background-color: #111827; /* Remove orange background */
+    margin-bottom: 8px; /* Adjust spacing between items */
+    width: 100%; /* Adjust the width of each list item */
+    border-radius: 5px; /* Add rounded corners if desired */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    align-items: flex-start;
+
+}
+
+nav ul li button {
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px; /* Adjust padding */
+    transition: background-color 0.3s ease;
+    width: 100%; /* Make the link fill the list item */
+    background-color: #111827; /* Set the background color to orange */
+    border-radius: 5px; /* Add rounded corners to match the buttons */
+    z-index: 1000;
+    font-size: medium;
+}
+
+
+
+nav ul li button:hover {
+    background-color: rgba(20, 184, 166, 0.2); /* Darker teal on hover */
+    color: white;
+}
+
+
+.nav-item {
+    font-size: 1.9em; /* Adjust font size */
+}
+
+.admin-info-header {
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 2.3em; /* Adjust size */
+    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.logout-container {
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.logout {
+    border: 2px solid black;
+    background-color: #374151; /* Red logout button */
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.logout:hover {
+    background-color: white;
+    color: black;
+}

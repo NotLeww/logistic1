@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="../assets/signup.js" defer></script>
+</head>
+<body>
+    <div class="signup-container">
+        <h1 class="signup-header">Signup</h1>
+        <form id="signup-form">
+            <div class="form-slide active">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <button type="button" class="next-button">Next →</button>
+            </div>
+            <div class="form-slide">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="button" class="prev-button">←</button>
+                <button type="button" class="next-button">Next →</button>
+            </div>
+            <div class="form-slide">
+                <input type="text" name="text" placeholder="Enter your company" required>
+                <button type="button" class="prev-button">←</button>
+                <button type="button" class="next-button">Next →</button>
+            </div>
+            <div class="form-slide">
+                <input type="password" name="password" placeholder="Enter your password" required>
+                <input type="password" name="confirm_password" placeholder="Confirm your password" required>
+                <button type="button" class="prev-button">←</button>
+                <input type="submit" value="Signup" class="signup-button">
+            </div>
+        </form>
+        <p class="p">
+            already have an account? <a href="login.html" class="login-link">Login</a>
+        </p>
+    </div>
+</body>
+</html>

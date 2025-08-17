@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics 1</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="../assets/index.js" defer></script>
+</head>
+<body>
+    
+<button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+
+<nav>
+    <div class="admin-info-header">Welcome!</div>
+    <ul>
+        <li><button class="nav-btn" data-content="warehouse_inventory">Inventory</button></li>
+        <li><button class="nav-btn" data-content="e-procurement">E-Procurement</button></li>
+        <li><button class="nav-btn" data-content="project_delivery">Projects</button></li>
+        <li><button class="nav-btn" data-content="asset_maintenance">Assets</button></li>
+        <li><button class="nav-btn" data-content="document_routing">Documents</button></li>
+    </ul>
+    <div class="logout-container">
+        <a href="login.html" class="logout" onclick="return confirm('Are you sure you want to logout?')">
+            <i class="fas fa-sign-out-alt"></i> Logout
+        </a>
+    </div>
+</nav>
+<center>
+<main id="main-content">
+    
+    <h2>Welcome!</h2>
+
+</main>
+</center>
+
+</body>
+</html>
