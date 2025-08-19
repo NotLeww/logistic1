@@ -1,11 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 24px;
-  background: #fafbfc;
+  background: #374151;
 }
 
 h2 {
   margin-bottom: 24px;
+  color: white;
 }
 
 .dashboard-cards {
@@ -16,7 +17,8 @@ h2 {
 
 .dashboard-card {
   flex: 1;
-  background: #f5f5f5;
+  background-color: #14b8a6;
+  color: white;
   padding: 16px;
   border-radius: 8px;
   text-align: center;
@@ -30,13 +32,16 @@ h2 {
 }
 
 .inventory-table th, .inventory-table td {
-  border: 1px solid #ddd;
+  border: #111827 solid 1px;
+  color: white;
   padding: 8px;
   text-align: center;
 }
 
 .inventory-table th {
-  background: #f0f0f0;
+  background-color: #14b8a6;
+  color: white;
+  border: #374151 solid 1px;
 }
 
 .search-input {
