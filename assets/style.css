@@ -2,14 +2,17 @@
     margin: 0;
     
 }
+body{
+    background-color: #374151;
+}
 /*                                          Login                                              */
 .login-container{
     padding: 100px;
     position: fixed;
     top: 100px;
     border-radius: 10px;
-    background-color: antiquewhite;
-    color: rgb(0, 0, 0);
+    background: #374151;
+    color: white;
     box-shadow: 2px 4px 10px black;
     justify-self: center;
 }
@@ -17,7 +20,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-self: center;
     margin-bottom: 50px;
-    color: rgb(121, 89, 21);
+    color: #14b8a6;
+
     
 }
 .p-log{
@@ -28,10 +32,15 @@
 }
 
 .signup-link{
-    color: rgb(121, 89, 21);
+    color: #14b8a6;    
     text-decoration: none;
     font-weight: bold;
 }
+.signup-link:hover{
+    color: rgba(20, 184, 166, 0.2); /* Darker teal on hover */
+    text-decoration: underline;
+}
+
 
 /*                                          Inputs                                              */
 
@@ -45,15 +54,16 @@ input{
 
 }
 .login-button{
-    background-color: rgb(102, 66, 0);
+    background-color: #14b8a6;
     color: white;
     font-weight: bold;
     cursor: pointer;
     padding: 10px 20px;
 }
 .login-button:hover{
-    background-color: #d6d4d4;
-    color: #000000;
+    background-color: rgba(20, 184, 166, 0.2); /* Darker teal on hover */
+    color: #a8a7a7;
+
 
 }
 
@@ -64,7 +74,8 @@ input{
     position: relative;
     top: 100px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background: #374151;
+    color: white;
     box-shadow: 2px 4px 10px black;
     justify-self: center;
     position: fixed;
@@ -73,7 +84,7 @@ input{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-self: center;
     margin-bottom: 50px;
-    color: rgb(121, 89, 21);
+    color: #14b8a6;
     position: relative;
 }
 
@@ -87,11 +98,16 @@ input{
 }
 /* ...existing code... */
 .login-link {
-    color: rgb(121, 89, 21);
+    color: #14b8a6;
     text-decoration: none;
     font-weight: bold;
     
 }
+.login-link:hover{
+    color: rgba(20, 184, 166, 0.2); /* Darker teal on hover */
+    text-decoration: underline;
+} 
+
 
 .p{
     text-align: center;
@@ -102,7 +118,7 @@ input{
 }
 
 .signup-button {
-    background-color: rgb(102, 66, 0);
+    background-color: #14b8a6;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -111,11 +127,11 @@ input{
     position: relative;
 }
 .signup-button:hover {
-    background-color: #d6d4d4;
-    color: #000000;
+    background-color: rgba(20, 184, 166, 0.2); /* Darker teal on hover */
+    color: #a8a7a7;
 }
 .prev-button {
-    color: rgb(0, 0, 0);
+    color: #14b8a6;
     font-weight: bold;
     cursor: pointer;
     padding: 10px 10px;
@@ -128,7 +144,7 @@ input{
     font-size: x-large;
 }
 .next-button {
-    color: black;
+    color: #14b8a6;
     background-color: transparent;
     cursor: pointer;
     padding: 10px 10px;

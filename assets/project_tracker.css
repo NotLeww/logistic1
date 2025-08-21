@@ -1,11 +1,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 24px;
-  background: #fafbfc;
+  background: #374151;
 }
 
 h2 {
   margin-bottom: 24px;
+  color: white;
 }
 
 button {
@@ -29,13 +30,14 @@ button:hover {
 }
 
 .project-table th, .project-table td {
-  border: 1px solid #ddd;
+  border: #111827 solid 1px;
   padding: 8px;
   text-align: center;
 }
 
 .project-table th {
-  background: #f0f0f0;
+  background-color: #14b8a6;
+  color: white;
 }
 
 .modal {

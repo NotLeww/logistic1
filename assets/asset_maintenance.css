@@ -8,8 +8,17 @@ body {
 h2 {
   margin-bottom: 24px;
   color: white;
-
 }
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.search-bar input{
+    border-radius: 8px;
+    padding: 10px 5px;
+}
+
 
 button {
   padding: 8px 16px;
@@ -25,21 +34,22 @@ button:hover {
   background: #1565c0;
 }
 
-.procurement-table {
+.asset-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 16px;
 }
 
-.procurement-table th, .procurement-table td {
-  border: #111827 solid 1px;
-  padding: 8px;
-  text-align: center;
+.asset-table th, .asset-table td {
+    border: #111827 solid 1px;
+    color: white;
+    padding: 8px;
+    text-align: center;
 }
 
-.procurement-table th {
-  background-color: #14b8a6;
-  color: white;
+.asset-table th {
+    background-color: #14b8a6;
+    color: white;
 }
 
 .modal {
