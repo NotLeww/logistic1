@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Procurement</title>
+    <link rel="stylesheet" href="../assets/e_procurement.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <script src="../assets/e_procurement.js" defer></script>
+</head>
+<body>
+    <h2>Procurement & Sourcing Management (PSM)</h2>
+
+    <!-- Purchase Request Section -->
+    <button onclick="openRequestModal()">New Purchase Request</button>
+    <table class="procurement-table">
+        <thead>
+            <tr>
+                <th>Request ID</th>
+                <th>Item/Service</th>
+                <th>Requested By</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic rows here -->
+        </tbody>
+    </table>
+
+    <!-- Purchase Request Modal -->
+    <div id="requestModal" class="modal">
+        <h3>New Purchase Request</h3>
+        <form>
+            <label>Item/Service: <input type="text"></label><br><br>
+            <label>Quantity: <input type="number"></label><br><br>
+            <label>Supplier: <input type="text"></label><br><br>
+            <button type="submit">Submit Request</button>
+            <button type="button" onclick="closeRequestModal()">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
